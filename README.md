@@ -1,2 +1,3 @@
-# ir_receiver
-A fun little fake TV made for the "Learning the World, One Thing at a Time" ITP class at NYU
+I will copy-paste eventually but for now...
+
+[Blog post about this project](https://shrub-gauge-55f.notion.site/TV-Remote-Control-Project-eec454ed6eb64bc281066c8f0e5edfa8)

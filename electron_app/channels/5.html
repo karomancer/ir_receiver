@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <link href="../styles.css" rel="stylesheet" />
+    <script src="../assets/scripts/play_video.js"></script>
+    <title>Channel 5</title>
+  </head>
+  <body>
+    <div id="tv">      
+      <video id="channel" preload="auto" data-setup="{}">
+        <source src="../assets/videos/magnavox_ad.mp4" type="video/mp4" />
+      </video>
+      <video id="static" preload="auto" autoplay>
+        <source src="../assets/effects/static.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "ir_receiver",
+  "version": "1.0.0",
+  "description": "A fun little fake TV made for an ITP class at NYU",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "node gen_channels.ts && ./node_modules/.bin/tsc",
+    "start": "npm run build && electron . --no-user-gesture-required",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/karomancer/ir_receiver",
+  "keywords": [
+    "TV",
+    "infrared",
+    "ir receiver"
+  ],
+  "author": "@karomancer",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/serialport": "^8.0.2",
+    "electron": "^20.2.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "loudness": "^0.4.1",
+    "serialport": "^10.4.0"
+  }
+}
