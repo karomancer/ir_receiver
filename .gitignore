@@ -1,0 +1,7 @@
+.DS_Store
+
+# electron_app
+electron_app/node_modules
+electron_app/dist
+electron_app/npm-debug.log
+electron_app/.DS_Store
